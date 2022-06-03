@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adarsha Saula Yubak Secondary School</title>
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <!-- Bootstrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="css/home.css">
+
+    <!-- Utilis CSS  -->
+    <link rel="stylesheet" href="../utilities/utilis.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- Nav bar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #7f8fa6;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="logo" class="img-fluid" width="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 font3 fs-5">
+                    <li class="nav-item p-2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="#">Research</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success p-0 rounded-circle" type="submit">
+                        <img src="./images/search.svg" alt="search" width="40">
+                    </button>
+                </form>
+                <div class="d-flex login-signup-btn ms-2 mt-3 mt-lg-0">
+                    <button class="btn btn-danger">Login</button>
+                    <button class="btn ms-2 btn-danger">SignUp</button>
+                </div>
+            </div>
+        </div>
+        <!-- Nav bar ends here  -->
+    </nav>
+
+
+    <!-- main content starts here  -->
+    <main>
+
+        <!-- Slider starts here  -->
+        <div id="carouselExampleCaptions" class="carousel slide d-none d-md-block" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/slider_1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-6 fw-bolder font5">The Premium System Education</h5>
+                        <p class="h2 font3">Future of Technology</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slider_2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-6 fw-bolder font5">You only have know one thing</h5>
+                        <h5 class="display-6 fw-bolder font5">You can learn anything</h5>
+                        <p class="h2 font3">Free Education</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slider_3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-6 fw-bolder font5">Delivering Quality Education</h5>
+                        <p class="h2 font3">AWESOME FACULTY PANEL</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <!-- Slider Ends here  -->
+        </div>
+
+
+        <!-- Welcome section Starts here  -->
+        <div class="welcome container-fluid mt-5 text-center py-4">
+
+            <!-- Content to be typed  -->
+            <div id="typingContent">
+                <p>Welcome To Adarsha Saula Yubak Higher Secondary School</p>
+                <p>Welcome To आदर्श सौलः युवक माध्यामिक विद्यालय</p>
+                <p>One of the best School located in Lalitpur,Nepal</p>
+            </div>
+
+            <!-- Content to be populated when typing -->
+            <h2 id="typingContainer">
+                <span id="typingArea" class="text-success"></span>
+            </h2>
+            <p class="w-75 m-auto text-black-50">Lorem ipsum dolor siitationem animi iusto. Veritatis dolor, dolore qui
+                accusamus delectus ad dolorem facilis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+                exercitationem?Lorem ipsum dolor sit amet, conebore et dolore magna </p>
+
+            <!-- Welcome section ends here -->
+        </div>
+
+
+
+        <!-- Features Starts here -->
+        <div class="container features pb-4">
+            <div class="row">
+                <div class="col-md-6 col-xl-3 feature">
+                    <img src="./images/Theexperts.webp" alt="The Experts">
+                    <h3 class="mt-3">The Experts</h3>
+                    <p class="mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, enim.</p>
+                </div>
+                <div class="col-md-6 col-xl-3 feature">
+                    <img src="./images/bookandLibrary.webp" alt="">
+                    <h3 class="mt-3">Book &amp; Library</h3>
+                    <p class="mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, cum.</p>
+                </div>
+                <div class="col-md-6 col-xl-3 feature">
+                    <img src="./images/bestCourses.webp" alt="">
+                    <h3 class="mt-3">Best Courses</h3>
+                    <p class="mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, magnam.</p>
+                </div>
+                <div class="col-md-6 col-xl-3 feature">
+                    <img src="./images/awardreward.webp" alt="">
+                    <h3 class="mt-3">Award &amp; Reward</h3>
+                    <p class="mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, neque.</p>
+                </div>
+            </div>
+            <!-- Features Ends Here  -->
+        </div>
+
+        <!-- Popular Courses  -->
+        <div class="container-fluid popularCourse py-5 mt-5">
+            <div class="heading text-center">
+                <h1 class="mb-4 font5 fw-bolder">Popular Courses</h1>
+                <p class="font1 mb-1 m-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor perferendis
+                    repudiandae tempore fuga deserunt</p>
+                <p class="font1 m-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni rerum
+                    delectus
+                    labore amet ad!</p>
+            </div>
+            <div class="container course-items">
+                <div class="row justify-content-xl-between justify-content-between gx-4">
+                    <div class="col-lg-4 col-md-6 course-item mt-5 py-4">
+                        <img src="./images/Science.webp" alt="scienceEducation" class="img-fluid">
+                        <div class="course-item-info">
+                            <h3 class="font1 mt-4">Science</h3>
+                            <p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ex
+                                molestias voluptates
+                                minima incidunt iste.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 course-item mt-5 py-4">
+                        <img src="./images/Management.webp" alt="HumanitiesManagement" class="img-fluid">
+                        <div class="course-item-info">
+                            <h3 class="font1 mt-4">Management</h3>
+                            <p class="font3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quo natus
+                                dolorem pariatur
+                                consectetur laboriosam!</p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 course-item mt-5 py-4">
+                        <img src="./images/ComputerEngineering.webp" alt="ComputerEngineering" class="img-fluid">
+                        <div class="course-item-info">
+                            <h3 class="font1 mt-4">Computer Engineering</h3>
+                            <p class="font3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia amet
+                                dolorem repellat
+                                reprehenderit obcaecati alias.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mt-4 justify-content-center view-all-courses">
+                <button class="btn btn-info fs-4">View All Courses</button>
+            </div>
+            <!-- Popular Courses Ends Here  -->
+        </div>
+
+
+        <!-- Admission -->
+        <div class="container admission mt-5 py-5">
+            <div class="row justify-content-between">
+                <div class="col-6 admissionImg d-none d-lg-block">
+                    <img src="./images/Admission.png" alt="Admission" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-6 admissionTxt">
+                    <h1 class="font4 fw-bolder border-bottom">Apply for Admission</h1>
+                    <p class="font6 fs-5" style="text-align: justify;">
+                        Lorem ipsum dolor sit amet,Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae dolore
+                        pariatur modi velit consectetur accusantium minima debitis optio quisquam! consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad
+
+                    </p>
+                    <div class="admission-apply-btn mt-4">
+                        <button class="btn btn-primary py-0 font7 fs-3">Apply</button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Admission Ends Here  -->
+        </div>
+
+
+        <!-- Research -->
+        <div class="container-fluid research mt-5 py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-7 researchTxt">
+                        <h1 class="mb-4 py-2">Research</h1>
+                        <p class="font3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                    <div class="col-5 researchImg d-lg-block d-none">
+                        <img src="./images/ResearchBooks.png" alt="books" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Research Ends Here  -->
+            </div>
+            <!-- Research Ends Here  -->
+        </div>
+
+        <!-- News  -->
+        <div class="container news py-5">
+            <div class="newsHeading">
+                <h1 id="headingNews" class="font4 text-center my-5">News</h1>
+            </div>
+            <div class="row justify-content-between gx-5">
+                <div class="col-md-6 technology mt-3">
+                    <div class="technology-content">
+                        <div class="technology-img">
+                            <img src="./images/technologyNews.png" alt="Technology News" class="img-fluid">
+                            <div class="technologyheading newstopic">
+                                <h1>Technology</h1>
+                            </div>
+                        </div>
+
+                        <div class="technology-text py-1 py-md-0 mt-4 text-center fs-5">
+                            <p class="py-1">Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt mollit anim id est laborum</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 education mt-3">
+                    <div class="education-content">
+                        <div class="education-img">
+                            <img src="./images/EducationNews.png" alt="Education News" class="img-fluid">
+                            <div class="educationheading newstopic">
+                                <h1>Education</h1>
+                            </div>
+                        </div>
+
+                        <div class="educationContent py-1 py-md-0 mt-4 text-center fs-5">
+                            <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt mollit anim id est laborum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- News Ends Here  -->
+        </div>
+
+
+        <!-- NewsLetter -->
+        <div class="container-fluid newsletter mt-5 pb-3">
+            <div class="container">
+                <div class="row align-items-center py-2">
+                    <div class="col-lg-7 col-12 newsAndOffers">
+                        <h3 class="font5 text-light pt-3">SIGN UP FOR NEWS AND OFFERS</h3>
+                        <p class="font-2 fs-5">Subscribe to latest smartphones news &amp; great deals we offer</p>
+                    </div>
+                    <form class="col-lg-5 col-12 d-flex justify-content-lg-end subscribe">
+                        <input type="email" placeholder="Enter your Email">
+                        <button class="ms-2">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Newsletter Ends here  -->
+        </div>
+
+
+
+        <!-- Information  -->
+        <div class="container-fluid bg-dark information py-5">
+            <div class="container text-light">
+                <div class="row justify-content-between">
+                    <div class="col-lg-5 col-md-6 schoolInfo mt-3">
+                        <h3>A . S . Y . S . S</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip</p>
+                    </div>
+                    <div class="col-lg-3 col-md-5 quickLinks mt-3">
+                        <h3> Quick Links</h3>
+                        <ul class="ps-2">
+                            <li><a href="#">Join Us</a></li>
+                            <li><a href="#">Maintenance</a></li>
+                            <li><a href="#">Language Packs</a></li>
+                            <li><a href="#">LearnPress</a></li>
+                            <li><a href="#">Release Status</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 contactus mt-3">
+                        <h3>Contact Us</h3>
+                        <ul class="ps-2">
+                            <li>Email : adarshabhiyan@gmail.com</li>
+                            <li>Phone : 01-5590960</li>
+                            <li>Location : Sainbu,Bungamati,Lalitpur-22</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Footer starts here  -->
+    <footer>
+        <div class="container">
+            <div class="row py-3 align-items-center">
+                <div class="col-lg-6  text-light">
+                    <p id="copyright-claim">Copyright &copy; 2022 All rights reserved | Designed by
+                        Lakash</p>
+                </div>
+                <span class="d-flex justify-content-between col-lg-6  mt-3 mt-lg-0">
+                    <p class="copyright-info"><a href="#">Copyright notification</a></p>
+                    <p class="copyright-info"><a href="#">Terms of Use</a></p>
+                    <p class="copyright-info"><a href="#">Privacy Policy</a></p>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Typed JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="javascript/home.js"></script>
+
+    <!-- Bootstrap JavaScript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

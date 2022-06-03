@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Farro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+  /* --main-bg-color: #bd6418; */
+  --font-1: "Baloo Bhaina 2", cursive;
+  --font-2: "Roboto", sans-serif;
+  --font-3: "Noto Sans", sans-serif;
+  --font-4: 'Lato', sans-serif;
+  --font-5:'Farro' , sans-serif;
+  --font-6:'KoHo', sans-serif;
+  --font-7: 'Pattaya', sans-serif;
+  --font-8: 'Anton', sans-serif;
+}
+
+.font1 {
+  font-family: var(--font-1);
+}
+.font2 {
+  font-family: var(--font-2);
+}
+.font3 {
+  font-family: var(--font-3);
+}
+.font4 {
+  font-family: var(--font-4);
+}
+.font5 {
+  font-family: var(--font-5);
+}
+.font6 {
+  font-family: var(--font-6);
+}
+.font7 {
+  font-family: var(--font-7);
+}
+.font8 {
+  font-family: var(--font-8);
+}
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
