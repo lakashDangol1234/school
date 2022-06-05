@@ -1,0 +1,17 @@
+/* footer  */
+footer{
+    background-color: #095a83;
+}
+#copyright-claim{
+  margin-bottom:0;
+}
+.copyright-info{
+  margin-bottom:0;
+}
+.copyright-info  a{
+    color:white;
+    text-decoration: none; 
+}
+.copyright-info a:hover{
+    color:grey;
+}

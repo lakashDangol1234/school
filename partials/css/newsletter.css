@@ -1,0 +1,28 @@
+/* Newsletter  */
+.newsletter {
+  background-color: #2ec4ed;
+}
+.subscribe input {
+  padding: 0.6rem;
+  width: 75%;
+  background: #7fd9f1;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 1rem;
+}
+
+.subscribe button {
+  padding: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  color: #2ec4ed;
+  border-radius: 14px;
+  transition: all 0.6s ease;
+}
+
+.subscribe button:hover {
+  cursor: pointer;
+  background-color: greenyellow;
+  color: black;
+}

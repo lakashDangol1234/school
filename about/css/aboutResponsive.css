@@ -1,0 +1,7 @@
+/* For Medium*/
+@media screen and (max-width: 991px) {
+    /* Welcome  */
+    #welcome-typingContainer{
+        min-height:72px;
+    }
+}

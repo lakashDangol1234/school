@@ -1,0 +1,13 @@
+/* Heading Content  */
+.heading-content{
+    background-color: #f5f5f5;
+}
+.heading-content-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3f4964;
+    border:5px solid white;
+}
+
+

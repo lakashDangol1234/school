@@ -1,0 +1,27 @@
+/* Information */
+
+.schoolInfo p{
+    text-align: justify;
+    color:#b4def0;
+    line-height: 2;
+}
+
+.schoolInfo h3,.quickLinks h3,.contactus  h3{
+    display: inline-block;
+    border-bottom: 2px solid red;
+    padding-bottom:12px;
+}
+.quickLinks ul li,.contactus ul li{
+    list-style: none;
+    padding-top:6px;
+    padding-bottom:6px;
+    color:#b4def0;
+}
+.quickLinks ul li a{
+    text-decoration: none;
+    font-family: var(--font-3);
+    color:#b4def0;
+}
+.quickLinks ul li a:hover{
+    color:red;
+}
