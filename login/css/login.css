@@ -1,0 +1,37 @@
+/* form Box  */
+.formBox{
+    margin:auto;
+}
+.passwordSection{
+    position:relative;
+}
+.forgotPassword{
+    position:absolute;
+    right:0;
+    top:0;
+    text-decoration: none;
+}
+
+/* New User  */
+.newUser{
+    border:1px solid grey;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newUser p{
+    margin:1rem 0;
+}
+#loginBtn{
+    min-width:20%;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+}
+
+/* Footer  */
+footer{
+    position:fixed;
+    width:100%;
+    bottom:0;
+}

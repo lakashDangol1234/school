@@ -1,0 +1,21 @@
+/* form Box  */
+.formBox{
+    /* max-width:55%; */
+    margin:auto;
+}
+.passwordSection{
+    position:relative;
+}
+.forgotPassword{
+    position:absolute;
+    right:0;
+    top:0;
+    text-decoration: none;
+}
+
+
+#signupBtn{
+    min-width:20%;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+}
