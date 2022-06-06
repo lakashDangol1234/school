@@ -1,0 +1,6 @@
+/* For Medium*/
+@media screen and (max-width: 575px) {
+  .courses_search_container {
+      height:130px;
+  }
+}

@@ -1,1 +1,358 @@
+/* Course  */
+.course {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* Courses Search  */
+.courses_search_container {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #f2f4f5;
+  height: 92px;
+}
+.courses_search_input {
+  width: 100%;
+  height: 46px;
+  border: solid 1px #d9d9d9;
+  border-radius: 3px;
+  background: #fff;
+  padding-left: 20px;
+  outline: none;
+}
+.courses_search_input:focus {
+  outline: solid 1px #14bdee;
+}
+.courses_search_input::placeholder{
+  font-size:.9rem;
+}
 
+/* Courses Container  */
+
+.course_col {
+  margin-bottom: 51px;
+}
+.course_col:nth-child(2n + 1) {
+  /* padding-right: 30px; */
+}
+.course-item {
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 10px rgba(29, 34, 47, 0.1);
+}
+.course_body {
+  padding-top: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 23px;
+}
+.course_title a {
+  font-family: var(--font-1);
+  text-decoration: none;
+  font-size: 20px;
+  color: #384158;
+}
+.course_title a:hover {
+  color: #14bdee;
+}
+
+.course_teacher {
+  font-family: var(--font-1);
+  font-size: 15px;
+  font-weight: 400;
+  color: #384158;
+  margin-top: 6px;
+}
+.course_text {
+  font-family: var(--font-6);
+}
+
+.course_footer {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.course_footer_content {
+  border-top: solid 1px #e5e5e5;
+  padding-top: 9px;
+  padding-bottom: 11px;
+}
+
+.course_info {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #55555a;
+  font-family: var(--font-2);
+}
+.course_info i {
+  color: #ffc80a;
+}
+
+.course_price {
+  font-family: var(--font-10);
+  font-size: 20px;
+  font-weight: 700;
+  color: #14bdee;
+}
+.course_price span {
+  font-family: var(--font-10);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #b5b8be;
+  margin-right: 10px;
+}
+
+/* Pagination  */
+.pagination_list li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border: solid 1px #ebebeb;
+  text-align: center;
+  transition: all 200ms ease;
+}
+.pagination_list li:not(:last-child) {
+  margin-right: 5px;
+}
+.pagination_list li:hover,
+.pagination_list li.active {
+  background: #14bdee;
+  cursor: pointer;
+}
+
+.pagination_list li:hover > a {
+  color: #fff;
+}
+
+.pagination_list li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757686;
+  line-height: 40px;
+  transition: all 200ms ease;
+  text-decoration: none;
+}
+
+.pagination_list li.active a {
+  color: #fff;
+}
+
+/* Pagination Info  */
+.courses_show_container {
+  font-family: var(--font-2);
+}
+.courses_show_text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #384158;
+  margin-right: 16px;
+  display: inline-block;
+}
+.courses_show_content {
+  display: inline-block;
+  width: 144px;
+  border: solid 1px #ecedee;
+}
+.courses_show_content span {
+  line-height: 40px;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #384158;
+}
+
+.courses_show_select {
+  float: right;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #384158;
+  border: none;
+  outline: none;
+}
+
+/* Sidebar  */
+.sidebar {
+  padding-left: 40px;
+}
+.sidebar_section:not(:last-child) {
+  margin-bottom: 60px;
+}
+/* Categories  */
+.sidebar_categories ul li:not(:last-of-type) {
+  border-bottom: solid 1px #e5e5e5;
+}
+
+.sidebar_categories ul {
+  padding: 0;
+}
+.sidebar_categories ul li {
+  height: 51px;
+  list-style-type: none;
+  cursor: pointer;
+}
+.sidebar_categories ul li:hover > a{
+  color: #14bdee;
+}
+.sidebar_categories ul li a {
+  font-size: 14px;
+  color: #76777a;
+  line-height: 51px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+.sidebar_categories ul li a::before {
+  display: inline-block;
+  font-family: "FontAwesome";
+  content: "\f101";
+  margin-right: 4px;
+}
+
+/* sidebar latest  */
+.sidebar_section_title {
+  font-family: var(--font-10);
+  font-size: 24px;
+  font-weight: 700;
+  color: #384158;
+  line-height: 0.75;
+}
+.sidebar_latest {
+  margin-top: 31px;
+}
+
+.latest-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.latest_image div {
+  width: 90px;
+  height: 74px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.latest_content {
+  padding-left: 21px;
+  margin-top: -4px;
+}
+
+.latest_title a {
+  text-decoration: none;
+  font-family: var(--font-10);
+  font-size: 16px;
+  font-weight: 700;
+  color: #383749;
+  line-height: 1.625;
+  transition: all 200ms ease;
+}
+
+.latest_price {
+  font-family: var(--font-10);
+  font-size: 14px;
+  font-weight: 700;
+  color: #14bdee;
+  line-height: 0.75;
+  margin-top: 16px;
+}
+
+/* sidbar gallery  */
+.gallery_item {
+  position: relative;
+}
+.gallery_item_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  color: purple;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.gallery_items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 16px;
+  column-gap: 8px;
+  padding: 0;
+}
+
+.gallery_items img {
+  transition: all 200ms ease;
+}
+.gallery_items img:hover {
+  opacity: 0.3;
+}
+
+/* sidebar Tags  */
+.sidebar_tags {
+  margin-top: 40px;
+}
+.tags_list {
+  list-style: none;
+  padding: 0;
+}
+.tags_list li {
+  display: inline-block;
+  padding-left: 19px;
+  padding-right: 18px;
+  background: #f2f4f5;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  transition: all 200ms ease;
+}
+
+.tags_list li:not(:last-child) {
+  margin-right: 5px;
+}
+
+.tags_list li a {
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  color: #76777a;
+  text-transform: uppercase;
+  line-height: 30px;
+  transition: all 200ms ease;
+}
+
+/* sidebar banner  */
+.sidebar_banner {
+  margin-top: 52px;
+  height: 255px;
+  background: url("../images/freeBook.webp");
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-blend-mode: screen;
+}
+
+.sidebar_banner p {
+  font-size: 25px;
+  color: white;
+}
+
+.sidebar_banner button {
+  color: #14bdee;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  width: 200px;
+  text-transform: uppercase;
+  line-height: 46px;
+  margin-top: 21px;
+  transition: all 200ms ease;
+  border: none;
+  outline: none;
+}
+
+.sidebar_banner button:hover {
+  cursor: pointer;
+  background-color: #2ec4ed;
+  color: white;
+}

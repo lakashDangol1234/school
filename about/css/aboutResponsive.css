@@ -1,7 +1,11 @@
 /* For Medium*/
 @media screen and (max-width: 991px) {
-    /* Welcome  */
-    #welcome-typingContainer{
-        min-height:72px;
-    }
+  /* Welcome  */
+  #welcome-typingContainer {
+    min-height: 72px;
+  }
+  /* Why Choose Us  */
+  #whyChooseUsTypingContainer {
+    min-height: 50px;
+  }
 }
