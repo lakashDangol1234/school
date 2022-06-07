@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 :root {
   /* --main-bg-color: #bd6418; */
@@ -22,6 +23,7 @@
   --font-8: 'Anton', sans-serif;
   --font-9: 'Red Hat Display', sans-serif;
   --font-10: 'Roboto Slab', serif;
+  --font-11: 'Rubik', sans-serif;
 }
 
 .font1 {
@@ -51,7 +53,12 @@
 .font9 {
   font-family: var(--font-9);
 }
-
+.font10{
+  font-family: var(--font-10);
+}
+.font11{
+  font-family: var(--font-11);
+}
 .cursor-pointer{
   cursor: pointer;
 }
