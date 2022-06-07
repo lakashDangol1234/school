@@ -1,6 +1,30 @@
-/* For Medium*/
+/* For x-small */
 @media screen and (max-width: 575px) {
+  /* Courses Search  */
   .courses_search_container {
-      height:130px;
+    height:130px;
+  }
+}
+
+/* For x-small . Additional Case (400px) */
+@media screen and (max-width: 400px) {
+   /* Gallery Image Modal  */
+   .modal-footer{
+    flex-wrap: wrap;
+  }
+  .imageInfo_btn{
+    width:100%;
+  }
+  .modal-footer > button{ /* Close button  of modal */
+    margin-left:auto;
+  }
+}
+
+
+/* For Large*/
+@media screen and (max-width: 991px) {
+  /* sidebar  */
+  .sidebar{
+    padding-left:0;
   }
 }

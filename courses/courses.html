@@ -94,7 +94,8 @@
                         <form action="" style="height:100%;">
                             <div class="row align-items-center justify-content-between gx-0" style="height:100%;">
                                 <div class="col-5 col-sm-4">
-                                    <input type="text" id="searchCourses" name="searchCourses" class="courses_search_input" placeholder="Search Courses">
+                                    <input type="text" id="searchCourses" name="searchCourses"
+                                        class="courses_search_input" placeholder="Search Courses">
                                 </div>
                                 <div class="col-5 col-sm-4">
                                     <select name="category" class="courses_search_input cursor-pointer" id="category">
@@ -455,10 +456,8 @@
                                             +
                                         </div>
                                         <div class="gallery_image">
-                                            <a href="../course/course.html">
-                                                <img src="./images/instagram-1.webp" alt="gallery_image"
-                                                    class="img-fluid">
-                                            </a>
+
+                                            <img src="./images/instagram-1.webp" alt="gallery_image" class="img-fluid">
 
                                         </div>
                                     </div>
@@ -467,10 +466,7 @@
                                             +
                                         </div>
                                         <div class="gallery_image">
-                                            <a href="../course/course.html">
-                                                <img src="./images/instagram-2.webp" alt="gallery_image"
-                                                    class="img-fluid">
-                                            </a>
+                                            <img src="./images/instagram-2.webp" alt="gallery_image" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="gallery_item">
@@ -478,10 +474,9 @@
                                             +
                                         </div>
                                         <div class="gallery_image">
-                                            <a href="../course/course.html">
-                                                <img src="./images/instagram-3.webp" alt="gallery_image"
-                                                    class="img-fluid">
-                                            </a>
+
+                                            <img src="./images/instagram-3.webp" alt="gallery_image" class="img-fluid">
+
                                         </div>
                                     </div>
                                     <div class="gallery_item">
@@ -489,10 +484,8 @@
                                             +
                                         </div>
                                         <div class="gallery_image">
-                                            <a href="../course/course.html">
-                                                <img src="./images/instagram-4.webp" alt="gallery_image"
-                                                    class="img-fluid">
-                                            </a>
+
+                                            <img src="./images/instagram-4.webp" alt="gallery_image" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="gallery_item">
@@ -500,10 +493,8 @@
                                             +
                                         </div>
                                         <div class="gallery_image">
-                                            <a href="../course/course.html">
-                                                <img src="./images/instagram-5.webp" alt="gallery_image"
-                                                    class="img-fluid">
-                                            </a>
+
+                                            <img src="./images/instagram-5.webp" alt="gallery_image" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="gallery_item">
@@ -511,16 +502,47 @@
                                             +
                                         </div>
                                         <div class="gallery_image">
-                                            <a href="../course/course.html">
-                                                <img src="./images/instagram-6.webp" alt="gallery_image"
-                                                    class="img-fluid">
-                                            </a>
+                                            <img src="./images/instagram-6.webp" alt="gallery_image" class="img-fluid">
                                         </div>
                                     </div>
                                 </ul>
                             </div>
+
+
+
+                            <!-- Modal for opening image -->
+
+                            <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content mt-5">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Gallery Image</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <!-- Populating Image Here  -->
+                                        <div class="modal-body">
+                                            <img src="" alt="" id="modal-body-img" class="img-fluid" data-image-no="">
+                                        </div>
+                                        <div class="modal-footer justify-content-between">
+                                            <div class="imageInfo_btn">
+                                                <button type="button" class="btn btn-primary me-3" id="gallery_image_left">&larr;</button>
+                                                <button type="button" class="btn btn-primary" id="gallery_image_right">&rarr;</button>
+                                                <!-- Populating through JavaScript about image slider info E.g(Image 1 of 6) -->
+                                                <p id="image_info" class="my-0 ms-2"></p>
+                                            </div>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
                             <!-- Instagram/Gallery Section Ends Here  -->
                         </div>
+
 
                         <!-- Tags Starts Here -->
                         <div class="sidebar_section">
@@ -535,7 +557,7 @@
                                     <li><a href="#">startup</a></li>
                                 </ul>
                             </div>
-                        <!-- Tags Ends Here -->
+                            <!-- Tags Ends Here -->
                         </div>
 
                         <!-- Sidebar Banner Starts Here  -->
@@ -549,7 +571,6 @@
 
                         <!-- Sidebar Ends Here  -->
                     </div>
-
                 </div>
             </div>
         </div>
@@ -627,13 +648,13 @@
     </footer>
 
 
-    <!-- Custom JavaScript -->
-    <script src="javascript/courses.js"></script>
-
     <!-- Bootstrap JavaScript  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="javascript/courses.js"></script>
 </body>
 
 </html>

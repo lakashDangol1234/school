@@ -22,8 +22,8 @@
 .courses_search_input:focus {
   outline: solid 1px #14bdee;
 }
-.courses_search_input::placeholder{
-  font-size:.9rem;
+.courses_search_input::placeholder {
+  font-size: 0.9rem;
 }
 
 /* Courses Container  */
@@ -192,7 +192,7 @@
   list-style-type: none;
   cursor: pointer;
 }
-.sidebar_categories ul li:hover > a{
+.sidebar_categories ul li:hover > a {
   color: #14bdee;
 }
 .sidebar_categories ul li a {
@@ -246,6 +246,10 @@
   transition: all 200ms ease;
 }
 
+.latest_title a:hover {
+  color: #14bdee;
+}
+
 .latest_price {
   font-family: var(--font-10);
   font-size: 14px;
@@ -279,12 +283,22 @@
   column-gap: 8px;
   padding: 0;
 }
-
-.gallery_items img {
+.gallery_image:hover {
+  cursor: pointer;
+}
+.gallery_image img {
   transition: all 200ms ease;
 }
-.gallery_items img:hover {
+.gallery_image img:hover {
   opacity: 0.3;
+}
+
+/* gallery Image Modal  */
+.imageInfo_btn {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* sidebar Tags  */
@@ -309,6 +323,10 @@
   margin-right: 5px;
 }
 
+.tags_list li:hover {
+  background: #14bdee;
+}
+
 .tags_list li a {
   text-decoration: none;
   display: block;
@@ -318,7 +336,9 @@
   line-height: 30px;
   transition: all 200ms ease;
 }
-
+.tags_list li:hover a {
+  color: white;
+}
 /* sidebar banner  */
 .sidebar_banner {
   margin-top: 52px;
