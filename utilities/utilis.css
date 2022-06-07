@@ -55,3 +55,7 @@
 .cursor-pointer{
   cursor: pointer;
 }
+
+.trans_200{
+  transition: all 200ms ease;
+}

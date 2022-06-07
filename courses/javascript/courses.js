@@ -66,10 +66,10 @@ galleryImageRight.addEventListener('click', (e) => {
 
 
         // Putting imageNo to the next Number 
-        modalBodyImg.dataset.imageNo = index+1;
+        modalBodyImg.dataset.imageNo = index + 1;
 
-             // Image info
-             imageInfo.innerText = `Image ${index + 2} of ${galleryItemCollection.length}`;
+        // Image info
+        imageInfo.innerText = `Image ${index + 2} of ${galleryItemCollection.length}`;
     }
 
 
@@ -88,8 +88,8 @@ galleryImageRight.addEventListener('click', (e) => {
         // Putting imageNo to the 0 Number 
         modalBodyImg.dataset.imageNo = 0;
 
-         // Image info
-         imageInfo.innerText = `Image 1 of ${galleryItemCollection.length}`;
+        // Image info
+        imageInfo.innerText = `Image 1 of ${galleryItemCollection.length}`;
     }
 })
 
@@ -117,16 +117,16 @@ galleryImageLeft.addEventListener('click', (e) => {
         modalBodyImg.alt = `Gallery Image ${index}`;
 
         // Putting imageNo to the next Number 
-        modalBodyImg.dataset.imageNo = index-1;
+        modalBodyImg.dataset.imageNo = index - 1;
 
-         // Image info
-         imageInfo.innerText = `Image ${index} of ${galleryItemCollection.length}`;
+        // Image info
+        imageInfo.innerText = `Image ${index} of ${galleryItemCollection.length}`;
     }
 
 
     // If the current image index is 0 and (index-1) becomes -1 then we have to show the last image on the galleryItemCollection i.e (galleryItemCollection.length - 1)
-    if ((index - 1) == -1) {
-        let lastGalleryItem_indexNumber=galleryItemCollection.length - 1;
+    else if ((index - 1) == -1) {
+        let lastGalleryItem_indexNumber = galleryItemCollection.length - 1;
         // Grabbing last Gallery itme Gallery Item
         let lastGalleryItem = galleryItemCollection[lastGalleryItem_indexNumber];
 
@@ -140,7 +140,7 @@ galleryImageLeft.addEventListener('click', (e) => {
         // Putting imageNo to the last Number 
         modalBodyImg.dataset.imageNo = lastGalleryItem_indexNumber;
 
-         // Image info
-         imageInfo.innerText = `Image ${lastGalleryItem_indexNumber + 1} of ${galleryItemCollection.length}`;
+        // Image info
+        imageInfo.innerText = `Image ${lastGalleryItem_indexNumber + 1} of ${galleryItemCollection.length}`;
     }
 })
