@@ -1,0 +1,26 @@
+/* For x-small  */
+@media screen and (max-width: 575px) {
+  /* Events Container  */
+  .event-description {
+    --padding-left: 15px;
+  }
+
+  .event-info {
+    font-size: 22px;
+  }
+
+  .event-location p {
+    font-size: 14px;
+  }
+}
+
+/* For x-small Additional Case (350px) */
+@media screen and (max-width: 350px) {
+  /* Events Container  */
+  .meta {
+    grid-row: auto;
+  }
+  .event-info {
+    grid-column: 1 / span 2;
+  }
+}
