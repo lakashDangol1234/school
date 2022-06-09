@@ -12,7 +12,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 :root {
-  /* --main-bg-color: #bd6418; */
   --font-1: "Baloo Bhaina 2", cursive;
   --font-2: "Roboto", sans-serif;
   --font-3: "Noto Sans", sans-serif;
@@ -65,4 +64,8 @@
 
 .trans_200{
   transition: all 200ms ease;
+}
+
+.ml-auto{
+  margin-left:auto !important;
 }

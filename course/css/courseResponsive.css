@@ -1,0 +1,98 @@
+/* For medium device  */
+@media only screen and (max-width: 991px) {
+  /* Course Info  */
+  .course_info {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .course_info_item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .course_info_item:not(:last-child)::after {
+    display: none;
+  }
+
+  /* Course Tabs  */
+  .tabs {
+    flex-direction: column;
+    align-items: start !important;
+  }
+  .tab {
+    width: 100%;
+  }
+
+  /* Sidebar  */
+  .sidebar {
+    margin-top: 70px;
+    padding-left: 0;
+    padding-top: 0;
+  }
+}
+
+/* For small device  */
+@media only screen and (max-width: 767px) {
+  /* Tab Panel Reviews  */
+  .review_rating {
+    padding-top: 0;
+    text-align: left;
+  }
+  .review_rating_bars {
+    margin-top: 33px;
+    display: inline-block;
+    padding-left: 0px;
+  }
+  .comments_list li ul {
+    padding-left: 32px;
+  }
+}
+
+/* For x-small device  */
+@media only screen and (max-width: 575px) {
+  /* Tab Panel  */
+  /*Tab Panel Description  */
+  .tab_panel_text p,
+  .tab_panel_bullets li,
+  .accordion-body-faq {
+    font-size: 13px;
+  }
+
+  .accordion-button-faq {
+    font-size: 16px;
+  }
+
+  /*Tab Panel Curriculum */
+  .dropdown_item_title {
+    font-size: 14px;
+  }
+  .dropdown_item_text p {
+    font-size: 13px;
+  }
+
+  /* Tab Panel Reviews  */
+  .review_rating_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .review_rating_bar {
+    margin-left: 0;
+    width: 100%;
+  }
+  .comment_content {
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+  .comment_author a {
+    font-size: 15px;
+  }
+  .comment_time {
+    font-size: 12px;
+  }
+  .comment_text p {
+    font-size: 13px;
+  }
+
+  .comment_extra a {
+    font-size: 12px;
+  }
+}
